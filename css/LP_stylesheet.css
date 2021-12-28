@@ -1,0 +1,768 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --mainBlueClr:#26ADE4;
+    --secBlueClr:#72D6FF;
+    --secNavyClr:#126384;
+    --secGreenClr:#D1E751;
+    --secBlackClr:#000;
+    --secWhiteClr:#fff;
+    --secGrayClr:#d9d9d9;
+}
+
+body{
+    font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+}
+.myTitle{
+    font-size: 3rem;
+    font-style: bold;
+    font-weight: 700;
+    padding-bottom: 15px;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.sloganSection{
+    color: var(--secBlueClr);
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 8vh;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.mainBlueFontClr{
+    color: var(--mainBlueClr);
+}
+.secBlueFontClr{
+    color: var(--secBlueClr);
+}
+.secNavyFontClr{
+    color: var(--secNavyClr);
+}
+.secWhiteFontClr{
+    color: var(--secWhiteClr);
+}
+
+@media screen and (min-width : 992px) {
+    body{
+        line-height: 2rem;
+        font-size: 17px;
+    }
+}
+@media screen and (min-width : 768px) and (max-width : 991.98px) {
+    body{
+        line-height: 1.8rem;
+        font-size: 16px;
+    }  
+    .myTitle{
+        font-size: 2.5rem;
+    } 
+ 
+}
+@media screen and (min-width : 576px) and (max-width : 767.98px) {
+    body{
+        line-height: 1.5rem;
+        font-size: 15px;
+    } 
+    .myTitle{
+        font-size: 2rem;
+    } 
+    .sloganSection{
+        line-height: 2rem;
+    }
+}
+@media screen and (max-width : 575.98px){
+    .myTitle{
+        font-size: 1.6rem;
+    } 
+    .sloganSection{
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+}
+/* -------------------------------------navbar section------------------------------------- */
+nav{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 8%, rgba(117,117,117,1) 38%, rgba(0,0,0,1) 60%);
+}
+nav a{
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+nav a:hover{
+    color: var(--mainBlueClr);
+}
+nav .navbar-toggler {
+    outline: none;
+}
+#navLogo {
+    width: 60px;
+    height: 60px;
+}
+
+
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -100px;
+}
+@media screen and (min-width:992px) {
+    nav, nav a, .nav-link, nav i{
+        color: var(--secWhiteClr);
+    }
+}
+@media screen and (max-width:991.98px) {
+    .nav-link{
+        color: var(--secBlackClr);
+    }
+}
+/* -------------------------------------main section------------------------------------- */
+.bannerImg{
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    object-position: bottom;
+
+}
+.bannerImg01{
+    object-position: top;
+}
+.carousel-caption{
+    background-color: #1264845e; /*carousel標題的 半透明藍方框襯底*/
+    border-radius: 8px;
+}
+.carousel-caption .myTitle~p{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+.preNextArrow{
+    width: 30%;
+    max-width: 80px;
+}
+@media screen and (min-width : 576px) and (max-width : 767.98px) {
+    .carousel-caption .myTitle~p{
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+}
+@media screen and (max-width : 575.98px) {
+    .carousel-caption .myTitle~p{
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+}
+/* -------------------------------------company slogan------------------------------------- */
+/*see above sloganSection settings around line 26-30*/
+
+/* -------------------------------------about us------------------------------------- */
+#aboutUsSection{
+    width: 100%;
+    height: 110%;
+    background-color: var(--mainBlueClr);
+    background-image: url(../img/about\ us\ bg.png);
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: var(--secWhiteClr);
+    text-align: center;
+    /* padding: 20% 20% 10%; */
+}
+
+#aboutUsSection img{
+    text-align: right;
+}
+#aboutUsSection .myTitle~div:not(:last-child){
+    margin: 30px 0;
+}
+.threeSymbols{
+    margin-top: 30px;
+    /* word-wrap: break-word; */
+    color: var(--secGreenClr);
+    /* font-size: 1.5vw; */
+    font-style: bold;
+    font-weight: 700;
+    text-align: center;
+}
+.threeSymbols img{
+    max-width: 250px;
+    width: 100%;
+}
+@media screen and (min-width:992px) {
+    #aboutUsSection{
+        padding: 15vh 20% 10vh;
+    }    
+}
+@media screen and (max-width:991.98px) {
+    #aboutUsSection{
+        padding: 15vh 5% 10vh;
+        /* word-wrap: break-word; */
+    }    
+}
+/* -------------------------------------professional OEM section------------------------------------- */
+
+
+
+#proOEMSection .myTitle, #proOEMSection img{
+    margin-bottom: 45px;
+}
+#proOEMSection a{
+    background-color: var(--secWhiteClr);
+    border: 1px solid var(--mainBlueClr);
+    border-radius: 35px;
+    outline: none;
+    color: var(--mainBlueClr);
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 300;
+}
+
+#proOEMSection a:hover {
+    background-color: var(--mainBlueClr);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    color: var(--secWhiteClr);
+
+}
+.indicatorLine{
+    display: inline-block;
+    width: 20px;
+    border-bottom: 2px solid var(--secBlueClr);
+    margin-right: 10px;
+}
+@media screen and (min-width:992px) {
+    #proOEMSection{
+        padding: 15vh 0 10vh;
+    }    
+}
+@media screen and (max-width:991.98px) {
+    #proOEMSection{
+        padding: 15vh 5% 10vh;
+        /* word-wrap: break-word; */
+    }    
+}
+
+/* -------------------------------------carousel slider section------------------------------------- */
+#sliderSection{
+    position: relative;
+    cursor: pointer;
+}
+#ourWorkSliderPre{
+    width: 5%;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    opacity: .6;
+}
+#ourWorkSliderPre:hover{
+    opacity: 1;
+}
+#ourWorkSliderNxt{
+    width: 5%;
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%);
+    opacity: .6;
+}
+#ourWorkSliderNxt:hover{
+    opacity: 1;
+}
+.ourWorkImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+[type=radio] {
+    display: none;
+}
+
+#slider {
+    height: 35vw;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+#slider label {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    border-radius: 4px;
+    position: absolute;
+    left: 0; right: 0;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+/* A<B<C>D>E */
+/* A 左邊第二（最左邊）*/
+#s1:checked ~ #slide4, #s2:checked ~ #slide5,
+#s3:checked ~ #slide1, #s4:checked ~ #slide2,
+#s5:checked ~ #slide3 {
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+    transform: translate3d(-30%,0,-200px);
+}
+/* B 左邊第一 */
+#s1:checked ~ #slide5, #s2:checked ~ #slide1,
+#s3:checked ~ #slide2, #s4:checked ~ #slide3,
+#s5:checked ~ #slide4 {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    transform: translate3d(-15%,0,-100px);
+}
+/* C正中間的圖 */
+#s1:checked ~ #slide1, #s2:checked ~ #slide2,
+#s3:checked ~ #slide3, #s4:checked ~ #slide4,
+#s5:checked ~ #slide5 {
+    box-shadow: 0 13px 25px 0 rgba(0,0,0,.3), 0 11px 7px 0 rgba(0,0,0,.19);
+    transform: translate3d(0,0,0);
+}
+/* D 右邊第一*/
+#s1:checked ~ #slide2, #s2:checked ~ #slide3,
+#s3:checked ~ #slide4, #s4:checked ~ #slide5,
+#s5:checked ~ #slide1 {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    transform: translate3d(15%,0,-100px);
+}
+/* E 右邊第二(最右邊)*/
+#s1:checked ~ #slide3, #s2:checked ~ #slide4,
+#s3:checked ~ #slide5, #s4:checked ~ #slide1,
+#s5:checked ~ #slide2 {
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+    transform: translate3d(30%,0,-200px);
+}
+/* -------------------------------------quality assurance section------------------------------------- */
+#qualityAsurSection{
+    height: 100%;
+    position: relative;
+    background-color: var(--secBlueClr);
+    background-image: url('../img/net-03.png'), linear-gradient(0deg, rgba(114,214,255,1) 44%, rgba(155,226,255,1) 73%, rgba(255,255,255,1) 98%);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: right;
+    color: var(--secWhiteClr);
+    z-index: 1;
+}
+
+#qualityAsurSection .myTitle{
+    margin-bottom: 2rem;
+}
+#qualityAsurSection:not(:last-child){
+    z-index: 1;
+}
+#qualityAsurSection img{
+    /* display: none; */
+    /* position: fixed; */
+    top: 0;
+    right: 0;
+    object-fit: contain;
+    height: 120vh;
+    z-index: -1;
+
+}
+#qualityAsurSection p:nth-of-type(4), #qualityAsurSection p:nth-of-type(5){
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 2.5rem;
+}
+
+@media screen and (min-width:992px) {
+    #qualityAsurSection{
+        padding: 20vh 20% 13vh;
+    }    
+}
+@media screen and (min-width:768px) and (max-width:991.98px) {
+    #qualityAsurSection{
+        padding: 20vh 5% 13vh;
+        /* word-wrap: break-word; */
+    }
+    #qualityAsurSection p:nth-of-type(4), #qualityAsurSection p:nth-of-type(5){
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+}
+@media screen and (max-width:767.98px) {
+    #qualityAsurSection{
+        padding: 10vh 5% 13vh;
+        margin-top: -30px;
+    }
+    #qualityAsurSection p:nth-of-type(4), #qualityAsurSection p:nth-of-type(5){
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+}
+/* -------------------------------------three cards------------------------------------- */
+.threeCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -40px auto 5%;
+    /* background: #fff; */
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 40%, var(--secBlueClr) 90%);
+}
+.myCards{
+    position: relative;
+    flex: 1;
+    max-width: 18rem;
+    height: auto;
+    background-color: var(--secWhiteClr);
+    border: 1px solid none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 2;
+
+
+}
+.myCards:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.myCards>div:first-child{
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: 12px solid var(--secGreenClr);
+}
+.myCards img:first-child{
+    display: none;
+    position: absolute;
+    background: #26aee45e;
+    /* background-size: contain; */
+    width: 86%;
+    height: 10rem;
+    object-fit: cover;
+    z-index: 3;
+}
+.myCards img:last-child{
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    z-index: 1;
+}
+.cardContainer{
+    padding: 2px 16px;
+}
+@media screen and (max-width:950px) {
+    .myCards{
+        flex: 100%;
+        min-width: 18rem;
+    }
+}
+
+/* -------------------------------------contact section------------------------------------- */
+#contactUsSection{
+    /* background-color: #fff; */
+    background: linear-gradient(to top, rgba(255,255,255,0) 0%,rgba(255,255,255,1)60%), url(../img/20210708_152455.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    padding:8% 8% 10%;
+}
+#contactUsSection .myTitle{
+    width: 100%;
+    margin: 0 auto 4rem;
+}
+#contactUsSection img{
+    width: 40px;
+    margin: 10px 0;
+}
+#contactInfo{
+    width: 30%;
+}
+#contactInfo a{
+    text-decoration: none;
+    color: var(--secNavyClr);
+}
+#contactUsSection a:hover{
+    color: var(--mainBlueClr);
+}
+#seperatorInContactSection{
+    width: 90%;
+    border-bottom: 2px solid var(--secNavyClr);
+    margin: 1.5rem 0;
+}
+#contactCard1, #contactCard2{
+    width: 20%;
+    height: auto;
+    background-color: var(--secWhiteClr);
+    border-top: 8px solid var(--secGreenClr);
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+    flex: 1;
+}
+
+#contactCardBtn1, #contactCardBtn2{
+    border-radius: 35px;
+    width: 80%;
+    height: 3rem; 
+    margin: 2rem auto;
+    font-weight: 300;
+    line-height: 3rem;
+    text-align: center;
+
+}
+#contactCardBtn1{
+    border: 1px solid var(--mainBlueClr);
+    background-color: var(--mainBlueClr);
+    color: var(--secWhiteClr);
+    text-decoration: none;
+}
+#contactCardBtn2{
+    border: 1px solid var(--mainBlueClr);
+    background-color: var(--secWhiteClr);
+    color: var(--mainBlueClr);
+    text-decoration: none;
+}
+#contactCardBtn1:hover{
+    cursor: pointer;
+    color: var(--secWhiteClr);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#contactCardBtn2:hover{
+    cursor: pointer;
+    color: var(--mainBlueClr);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#alertBox{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: var(--secWhiteClr);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    border-radius: 8px;
+    width: 50%;
+    min-height: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 10%;
+    z-index: 4;
+}
+#alertBox img{
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+#alertBox button{
+    width: 80%;
+    height: 3rem;
+    border-radius: 35px;
+    background-color: var(--secWhiteClr);
+    border: 1px solid var(--mainBlueClr);
+    color: var(--mainBlueClr);
+    outline: none;
+}
+#alertBox button:hover {
+    background-color: var(--mainBlueClr);
+    border: 1px solid var(--mainBlueClr);
+    color: var(--secWhiteClr);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    #contactUsSection{
+        padding: 0 10% 15%;
+        position: relative;
+    }
+    #contactUsSection .myTitle{
+        margin: 5rem auto 4rem;
+    }
+    #contactInfo{
+        flex: 100%;
+        margin-bottom: 30px;
+    }
+    #contactCard1, #contactCard2{
+        flex: 30%;
+        height: auto;
+    }
+}
+@media screen and (max-width:576px) {
+    #contactUsSection{
+        padding: 0 10% 15%;
+    }
+    #contactUsSection .myTitle{
+        margin: 4rem auto 2rem;
+    }
+    #contactInfo{
+        flex: 100%;
+        margin-bottom: 30px;
+    }
+    #contactCard1, #contactCard2{
+        flex: 100%;
+        height: auto;
+        padding: 1rem;
+        margin: 5% 15%;
+
+    }
+}
+/* -------------------------------------footer section------------------------------------- */
+#footerSection{
+    display: flex;
+    background-color: var(--secBlackClr);
+    color: var(--secWhiteClr);
+    padding: 2rem;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 15px;
+    gap: 20px;
+}
+#footerSection a {
+    text-decoration: none;
+    color: var(--secWhiteClr);
+}
+#footerLogo{
+    flex: 3%;
+}
+#footerLogo img{
+    width: 50px;
+    background: radial-gradient(circle, rgb(63, 63, 63) 0%, rgba(0,0,0,1) 100%);
+    /* background-position: top; */
+    /* background-size: 60px 60px; */
+    background-repeat: no-repeat;
+}
+#footerCompanyInfo{
+    flex: 30%;
+}
+#seperateFooter{
+    flex: 2%;
+}
+#footerDesignerInfo{
+    flex: 65%;
+}
+@media screen and (min-width:768px){
+    #seperateFooter{
+        border-left: 1px solid var(--secWhiteClr);
+        height: 5rem;
+    }   
+}
+@media screen and (max-width:767.98px){
+    #footerSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #footerLogo{
+        flex: 100%;
+    }
+    #footerCompanyInfo{
+        flex: 100%;
+        width: 60%;
+
+    }
+    #seperateFooter{
+        flex: 100%;
+        width: 60%;
+        border-bottom: 1px solid var(--secWhiteClr);
+    }
+    #footerDesignerInfo{
+        flex: 100%;
+        width: 60%;
+
+    }
+
+}
+/* -------------------------------------FORM PAGE------------------------------------- */
+#formPage{
+    color: var(--secNavyClr);
+    text-align: center;
+}
+#formPage .myTitle{
+    margin: 30px 0;
+}
+
+#formHeadder{
+    background-image: url(../img/form2222220210709_171623.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    width: 100vw;
+    height: 50vh;
+}
+#formPage hr{
+    border-top: 1px solid var(--secGrayClr);
+    margin: 2rem auto;
+    width: 70%;
+}
+#clientInput{
+    padding: 0 10% 10%;
+}
+#clientInput>div {
+    margin: 2rem auto;
+}
+#clientInput label{
+    float: left;
+    width: 160px;
+    padding: 20px 30px;
+    line-height: 28px;
+}
+#clientInput>div>input, #clientInput textarea{
+    width: calc(90% - 160px);
+    height: 60px;
+    background-color: var(--secWhiteClr);
+    border: 1px solid var(--secGrayClr);
+    border-radius: 3px;
+    color: var(--secNavyClr);
+    outline: none;
+    padding: 20px 20px;
+    font-size: 18px;
+    transition: all 0.4s ease;
+}
+#clientInput>div>input:hover, #clientInput textarea:hover{
+    border: 1px solid var(--mainBlueClr);
+}
+
+#clientInput button{
+    border-radius: 35px;
+    width: 20%;
+    height: 3rem; 
+    margin: 2rem 20px;
+    font-weight: 300;
+    line-height: 3rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    outline: none;
+}
+#submitBtn{
+    border: 1px solid var(--mainBlueClr);
+    background-color: var(--mainBlueClr);
+    color: var(--secWhiteClr);
+    text-decoration: none;
+}
+#resetBtn{
+    border: 1px solid var(--mainBlueClr);
+    background-color: var(--secWhiteClr);
+    color: var(--mainBlueClr);
+    text-decoration: none;
+}
+#submitBtn:hover{
+    cursor: pointer;
+    color: var(--secWhiteClr);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#resetBtn:hover{
+    cursor: pointer;
+    color: var(--mainBlueClr);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
