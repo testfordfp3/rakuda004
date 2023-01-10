@@ -616,6 +616,9 @@ nav .navbar-toggler {
 }
 /* -------------------------------------footer section------------------------------------- */
 #footerSection{
+    /* background-color: var(--secBlackClr); */
+    color: var(--secWhiteClr);
+    
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 8%, rgba(117,117,117,1) 38%, rgba(0,0,0,1) 60%);
     display: flex;
@@ -635,10 +638,10 @@ nav .navbar-toggler {
 }
 #footerLogo img{
     width: 50px;
-    background: radial-gradient(circle, rgb(63, 63, 63) 0%, rgba(0,0,0,1) 100%);
+    /* background: radial-gradient(circle, rgb(63, 63, 63) 0%, rgba(0,0,0,1) 100%); */
     /* background-position: top; */
     /* background-size: 60px 60px; */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 #footerCompanyInfo{
     flex: 97%;
