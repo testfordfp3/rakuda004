@@ -630,12 +630,12 @@ nav .navbar-toggler {
     gap: 20px;
 }
 #footerSection a {
-    margin: 0 10px;
     text-decoration: none;
     color: var(--secWhiteClr);
 }
 #footerLogo{
-    flex: 3%;
+    margin: 0 10px;
+    flex: 10%;
 }
 #footerLogo img{
     width: 60px;
@@ -647,7 +647,7 @@ nav .navbar-toggler {
     /* background-repeat: no-repeat; */
 }
 #footerCompanyInfo{
-    flex: 97%;
+    flex: 90%;
     text-align: right;
 }
 #seperateFooter{
