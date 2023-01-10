@@ -642,6 +642,7 @@ nav .navbar-toggler {
 }
 #footerCompanyInfo{
     flex: 97%;
+    align: right;
 }
 #seperateFooter{
     flex: 2%;
