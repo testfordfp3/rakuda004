@@ -17,12 +17,12 @@ body{
     font-family: 'Roboto', 'Noto Sans TC', sans-serif;
 }
 .myTitle{
-    font-size: 3rem;
+    font-size: 4rem;
     font-style: bold;
     font-weight: 700;
     padding-bottom: 15px;
     text-align: center;
-    line-height: 4rem;
+    line-height: 2rem;
 }
 
 .sloganSection{
