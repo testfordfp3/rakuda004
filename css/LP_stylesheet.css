@@ -483,7 +483,7 @@ nav .navbar-toggler {
     margin: 10px 0;
 }
 #contactInfo{
-    width: 30%;
+    width: 50%;
 }
 #contactInfo a{
     text-decoration: none;
@@ -495,7 +495,7 @@ nav .navbar-toggler {
 #seperatorInContactSection_1, #seperatorInContactSection_2, #seperatorInContactSection_3{
     width: 90%;
     border-bottom: 2px solid var(--secNavyClr);
-    margin: 1.5rem 0;
+    margin: 0.5rem 0;
 }
 #contactCard1, #contactCard2{
     width: 20%;
