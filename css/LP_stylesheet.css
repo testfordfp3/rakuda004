@@ -174,9 +174,9 @@ nav .navbar-toggler {
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.3;
     
-    color: var(--secWhiteClr);
+    /* color: var(--secWhiteClr); */
     text-align: center;
     /* padding: 20% 20% 10%; */
 }
@@ -185,7 +185,7 @@ nav .navbar-toggler {
     text-align: right;
 }
 #aboutUsSection .myTitle~div:not(:last-child){
-    margin: 30px 0;
+    margin: 20px 0;
 }
 .threeSymbols{
     margin-top: 30px;
