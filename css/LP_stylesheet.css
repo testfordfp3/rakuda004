@@ -258,6 +258,9 @@ nav .navbar-toggler {
     position: relative;
     cursor: pointer;
 }
+#sliderSection .myTitle {
+    margin-bottom: 45px;
+}
 @media screen and (min-width:992px) {
     #sliderSection{
         padding: 15vh 0 10vh;
