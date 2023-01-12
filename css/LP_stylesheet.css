@@ -174,7 +174,7 @@ nav .navbar-toggler {
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.3;
+    background-opacity: 0.2;
     
     /* color: var(--secWhiteClr); */
     text-align: center;
