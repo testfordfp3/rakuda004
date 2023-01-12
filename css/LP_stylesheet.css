@@ -174,7 +174,7 @@ nav .navbar-toggler {
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-opacity: 0.5;
+    background-opacity: 0.3;
     
     /* color: var(--secWhiteClr); */
     text-align: center;
@@ -472,7 +472,7 @@ nav .navbar-toggler {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom;
-    background-opacity: 0.7;
+    background-opacity: 0.3;
     display: flex;
     flex-wrap: wrap;
     gap: 5%;
