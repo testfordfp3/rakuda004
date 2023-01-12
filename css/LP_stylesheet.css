@@ -258,6 +258,17 @@ nav .navbar-toggler {
     position: relative;
     cursor: pointer;
 }
+@media screen and (min-width:992px) {
+    #sliderSection{
+        padding: 15vh 0 10vh;
+    }    
+}
+@media screen and (max-width:991.98px) {
+    #sliderSection{
+        padding: 15vh 5% 10vh;
+        /* word-wrap: break-word; */
+    }    
+}
 #ourWorkSliderPre{
     width: 5%;
     position: absolute;
