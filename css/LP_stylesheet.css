@@ -261,17 +261,6 @@ nav .navbar-toggler {
 #sliderSection .myTitle {
     margin-bottom: 45px;
 }
-@media screen and (min-width:992px) {
-    #sliderSection{
-        padding: 15vh 0 10vh;
-    }    
-}
-@media screen and (max-width:991.98px) {
-    #sliderSection{
-        padding: 15vh 5% 10vh;
-        /* word-wrap: break-word; */
-    }    
-}
 #ourWorkSliderPre{
     width: 5%;
     position: absolute;
@@ -356,6 +345,18 @@ nav .navbar-toggler {
 #s5:checked ~ #slide2 {
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
     transform: translate3d(30%,0,-200px);
+}
+
+@media screen and (min-width:992px) {
+    #sliderSection{
+        padding: 15vh 0 10vh;
+    }    
+}
+@media screen and (max-width:991.98px) {
+    #sliderSection{
+        padding: 15vh 5% 10vh;
+        /* word-wrap: break-word; */
+    }    
 }
 /* -------------------------------------quality assurance section------------------------------------- */
 #qualityAsurSection{
