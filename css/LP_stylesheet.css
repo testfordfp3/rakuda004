@@ -265,9 +265,9 @@ nav .navbar-toggler {
 #ourWorkSliderPre{
     width: 5%;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 15%;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
     opacity: .6;
 }
 #ourWorkSliderPre:hover{
@@ -276,9 +276,9 @@ nav .navbar-toggler {
 #ourWorkSliderNxt{
     width: 5%;
     position: absolute;
-    top: 50%;
+    top: 55%;
     right: 15%;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
     opacity: .6;
 }
 #ourWorkSliderNxt:hover{
