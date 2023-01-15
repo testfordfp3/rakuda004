@@ -77,7 +77,7 @@ $("#ourWorkSliderNxt").on("click", function (e) {
 });
 
 //-------------------------------------three cards-------------------------------------
-
+/* 
 $(".myCards").on({
     mouseover: function () {
         $(this).find("img:first-child").css("display", "block");
@@ -96,7 +96,7 @@ $(".myCards").on({
         });
     },
 });
-
+*/
 //-------------------------------------contact section-------------------------------------
 // check for working hours
 var d = new Date();
