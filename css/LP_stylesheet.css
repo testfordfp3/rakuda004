@@ -219,10 +219,11 @@ nav .navbar-toggler {
 #proOEMSection .myTitle, #proOEMSection img{
     margin-bottom: 45px;
 }
+/* 
 #proOEMSection img{
-    min-width: 300px;
-    max-width: 500px;
+    width: 300px;
 }
+ */
 #proOEMSection a{
     background-color: var(--secWhiteClr);
     border: 1px solid var(--mainBlueClr);
