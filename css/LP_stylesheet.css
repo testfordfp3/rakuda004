@@ -215,12 +215,11 @@ nav .navbar-toggler {
 /* -------------------------------------professional OEM section------------------------------------- */
 
 
-
 #proOEMSection .myTitle, #proOEMSection img{
     margin-bottom: 45px;
 }
 #proOEMSection img{
-    width: 300px;
+    width: 350px;
 }
 #proOEMSection a{
     background-color: var(--secWhiteClr);
