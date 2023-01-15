@@ -378,9 +378,11 @@ nav .navbar-toggler {
 #qualityAsurSection .myTitle{
     margin-bottom: 2rem;
 }
+/* 
 #qualityAsurSection:not(:last-child){
     z-index: 1;
 }
+*/
 #qualityAsurSection img{
     /* display: none; */
     /* position: fixed; */
@@ -388,7 +390,7 @@ nav .navbar-toggler {
     right: 0;
     object-fit: contain;
     height: 120vh;
-    z-index: -1;
+    /* z-index: -1; */
 
 }
 #qualityAsurSection p:nth-of-type(4), #qualityAsurSection p:nth-of-type(5){
