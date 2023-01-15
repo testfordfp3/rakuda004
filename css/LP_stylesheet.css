@@ -459,21 +459,23 @@ nav .navbar-toggler {
     border-bottom: 12px solid var(--secGreenClr);
 }
 .myCards img:first-child{
-    display: none;
-    position: absolute;
+    /* display: none; */
+    /* position: absolute; */
     background: #26aee45e;
     /* background-size: contain; */
-    width: 86%;
-    height: 10rem;
+    width: 80%;
+    /* height: 10rem; */
     object-fit: cover;
     z-index: 3;
 }
+/* 
 .myCards img:last-child{
     width: 100%;
     height: 10rem;
     object-fit: cover;
     z-index: 1;
 }
+ */
 .cardContainer{
     padding: 2px 16px;
 }
