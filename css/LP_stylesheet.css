@@ -527,12 +527,12 @@ nav .navbar-toggler {
 #seperatorInContactSection_1, #seperatorInContactSection_2, #seperatorInContactSection_3{
     width: 90%;
     /* border-bottom: 2px solid var(--secNavyClr); */
-    border-bottom: 2px solid
-    margin: 0.5rem 0;
+    border-bottom: 2px solid var(--secBlackClr);
+    margin: 0.3rem 0;
 }
 #contactCard1, #contactCard2{
     width: 20%;
-    height: auto;
+    height: 80%;
     background-color: var(--secWhiteClr);
     border-top: 8px solid var(--secGreenClr);
     border-radius: 8px;
