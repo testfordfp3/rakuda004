@@ -226,7 +226,7 @@ nav .navbar-toggler {
     border: 1px solid var(--mainBlueClr);
     border-radius: 35px;
     outline: none;
-    color: var(--mainBlueClr);
+    /* color: var(--mainBlueClr); */
     text-decoration: none;
     padding: 15px 30px;
     font-weight: 300;
