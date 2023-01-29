@@ -515,7 +515,7 @@ nav .navbar-toggler {
 }
 #contactInfo a{
     text-decoration: none;
-    color: var(--secNavyClr);
+    /* color: var(--secNavyClr); */
 }
 #contactUsSection a:hover{
     color: var(--mainBlueClr);
