@@ -370,7 +370,7 @@ nav .navbar-toggler {
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-position: right;
-    color: var(--secWhiteClr);
+    /* color: var(--secWhiteClr); */
     z-index: 1;
 }
 
@@ -513,7 +513,7 @@ nav .navbar-toggler {
 #contactInfo{
     width: 50%;
 }
-#business-time{
+.business-time{
     font-size: 0.8rem;
     line-height: 0.8rem;
 }
