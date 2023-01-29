@@ -513,16 +513,21 @@ nav .navbar-toggler {
 #contactInfo{
     width: 50%;
 }
+#business-time{
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
 #contactInfo a{
     text-decoration: none;
-    /* color: var(--secNavyClr); */
+    color: var(--secBlackClr);
 }
 #contactUsSection a:hover{
-    /* color: var(--mainBlueClr); */
+    color: var(--mainBlueClr);
 }
 #seperatorInContactSection_1, #seperatorInContactSection_2, #seperatorInContactSection_3{
     width: 90%;
-    border-bottom: 2px solid var(--secNavyClr);
+    /* border-bottom: 2px solid var(--secNavyClr); */
+    border-bottom: 2px solid
     margin: 0.5rem 0;
 }
 #contactCard1, #contactCard2{
