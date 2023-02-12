@@ -366,7 +366,7 @@ nav .navbar-toggler {
     height: 100%;
     position: relative;
     background-color: var(--secBlueClr);
-    background-image: url('../img/banner 02.jpg'), linear-gradient(0deg, rgba(114,214,255,1) 44%, rgba(155,226,255,1) 73%, rgba(255,255,255,1) 98%);
+    /* background-image: url('../img/banner 02.jpg'), linear-gradient(0deg, rgba(114,214,255,1) 44%, rgba(155,226,255,1) 73%, rgba(255,255,255,1) 98%); */
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-position: right;
@@ -484,6 +484,124 @@ nav .navbar-toggler {
         min-width: 18rem;
     }
 }
+
+/* -------------------------------------news section------------------------------------- */
+#newsSection{
+    height: 100%;
+    position: relative;
+    background-color: var(--secBlueClr);
+    /* background-image: url('../img/banner 02.jpg'), linear-gradient(0deg, rgba(114,214,255,1) 44%, rgba(155,226,255,1) 73%, rgba(255,255,255,1) 98%); */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: right;
+    /* color: var(--secWhiteClr); */
+    z-index: 1;
+}
+
+#newsSection .myTitle{
+    margin-bottom: 2rem;
+}
+/* 
+#newsSection:not(:last-child){
+    z-index: 1;
+}
+*/
+#newsSection img{
+    /* display: none; */
+    /* position: fixed; */
+    top: 0;
+    right: 0;
+    object-fit: contain;
+    height: 120vh;
+    /* z-index: -1; */
+
+}
+#newsSection p:nth-of-type(4), #newsSection p:nth-of-type(5){
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 2.5rem;
+}
+
+@media screen and (min-width:992px) {
+    #newsSection{
+        padding: 20vh 20% 13vh;
+    }    
+}
+@media screen and (min-width:768px) and (max-width:991.98px) {
+    #newsSection{
+        padding: 20vh 5% 13vh;
+        /* word-wrap: break-word; */
+    }
+    #newsSection p:nth-of-type(4), #newsSection p:nth-of-type(5){
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+}
+@media screen and (max-width:767.98px) {
+    #newsSection{
+        padding: 10vh 5% 13vh;
+        margin-top: -30px;
+    }
+    #newsSection p:nth-of-type(4), #newsSection p:nth-of-type(5){
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+}
+
+/* -------------------------------------news cards------------------------------------- */
+.newsCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: -40px auto 5%; */
+    /* background: #fff; */
+    /* background: linear-gradient(to top, rgba(255, 255, 255, 0) 40%, var(--secBlueClr) 90%); */
+}
+.mynewsCards{
+    position: relative;
+    flex: 1;
+    /* max-width: 18rem; */
+    height: auto;
+    background-color: var(--secWhiteClr);
+    border: 1px solid none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    transition: 0.3s;
+    z-index: 2;
+
+
+}
+.mynewsCards:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.mynewsCards>div:first-child{
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: 12px solid var(--secGreenClr);
+}
+.mynewsCards img:first-child{
+    /* display: none; */
+    /* position: absolute; */
+    background: #26aee45e;
+    /* background-size: contain; */
+    width: 80%;
+    /* height: 10rem; */
+    object-fit: cover;
+    z-index: 3;
+}
+.newscardContainer{
+    padding: 2px 16px;
+}
+@media screen and (max-width:950px) {
+    .mynewsCards{
+        flex: 100%;
+        min-width: 18rem;
+    }
+}
+
 
 /* -------------------------------------contact section------------------------------------- */
 #contactUsSection{
