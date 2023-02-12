@@ -490,7 +490,7 @@ nav .navbar-toggler {
     height: 100%;
     position: relative;
     background-color: var(--secBlueClr);
-    /* background-image: url('../img/banner 02.jpg'), linear-gradient(0deg, rgba(114,214,255,1) 44%, rgba(155,226,255,1) 73%, rgba(255,255,255,1) 98%); */
+    background linear-gradient(0deg, rgba(114,214,255,1) 44%, rgba(155,226,255,1) 73%, rgba(255,255,255,1) 98%);
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-position: right;
@@ -524,7 +524,7 @@ nav .navbar-toggler {
 
 @media screen and (min-width:992px) {
     #newsSection{
-        padding: 20vh 20% 13vh;
+        padding: 0 0 13vh;
     }    
 }
 @media screen and (min-width:768px) and (max-width:991.98px) {
@@ -555,7 +555,10 @@ nav .navbar-toggler {
     justify-content: center;
     /* margin: -40px auto 5%; */
     /* background: #fff; */
-    /* background: linear-gradient(to top, rgba(255, 255, 255, 0) 40%, var(--secBlueClr) 90%); */
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 40%, var(--secBlueClr) 90%);
+}
+.mynewsCardsTitle{
+    font-size: 22px;
 }
 .mynewsCards{
     position: relative;
@@ -571,8 +574,6 @@ nav .navbar-toggler {
     text-align: left;
     transition: 0.3s;
     z-index: 2;
-
-
 }
 .mynewsCards:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
