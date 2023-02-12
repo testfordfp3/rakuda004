@@ -524,12 +524,12 @@ nav .navbar-toggler {
 
 @media screen and (min-width:992px) {
     #newsSection{
-        padding: 20vh 20% 13vh;
+        padding: 20vh 1% 13vh;
     }    
 }
 @media screen and (min-width:768px) and (max-width:991.98px) {
     #newsSection{
-        padding: 20vh 5% 13vh;
+        padding: 20vh 1% 13vh;
         /* word-wrap: break-word; */
     }
     #newsSection p:nth-of-type(4), #newsSection p:nth-of-type(5){
@@ -539,7 +539,7 @@ nav .navbar-toggler {
 }
 @media screen and (max-width:767.98px) {
     #newsSection{
-        padding: 10vh 5% 13vh;
+        padding: 10vh 1% 13vh;
         margin-top: -30px;
     }
     #newsSection p:nth-of-type(4), #newsSection p:nth-of-type(5){
