@@ -97,6 +97,7 @@ $(".myCards").on({
     },
 });
 */
+/* 
 //-------------------------------------contact section-------------------------------------
 // check for working hours
 var d = new Date();
@@ -143,6 +144,8 @@ function openFormTW() {
         "_blank" // open in a new tab
     );
 }
+*/ 
+/* 
 //-------------------------------------form page-------------------------------------
 $("#submitBtn").on("click", function () {
     var myBody = $("#clientDescription").val();
@@ -178,6 +181,7 @@ $("#submitBtn").on("click", function () {
 $("#resetBtn").on("click", function () {
     $("#clientInput input").reset();
 });
+*/ 
 //-------------------------------------copyright-------------------------------------
 const year = d.getFullYear();
 let copyright = document.querySelector("#footerCompanyInfo > p");
