@@ -742,7 +742,7 @@ nav .navbar-toggler {
         flex: 100%;
         margin-bottom: 30px;
     }
-    #contactCard1, #contactCard2{
+    #contactCard1, #contactCard2, #contactCard3{
         flex: 30%;
         height: auto;
     }
@@ -758,7 +758,7 @@ nav .navbar-toggler {
         flex: 100%;
         margin-bottom: 30px;
     }
-    #contactCard1, #contactCard2{
+    #contactCard1, #contactCard2, #contactCard3{
         flex: 100%;
         height: auto;
         padding: 1rem;
