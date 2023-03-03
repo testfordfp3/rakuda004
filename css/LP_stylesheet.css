@@ -630,7 +630,7 @@ nav .navbar-toggler {
     margin: 10px 0;
 }
 #contactInfo{
-    width: 50%;
+    width: 40%;
 }
 .business-time{
     font-size: 0.8rem;
@@ -649,7 +649,7 @@ nav .navbar-toggler {
     border-bottom: 2px solid var(--secBlackClr);
     margin: 0.2rem 0;
 }
-#contactCard1, #contactCard2{
+#contactCard1, #contactCard2, #contactCard3{
     width: 20%;
     height: auto;
     background-color: var(--secWhiteClr);
