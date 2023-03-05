@@ -460,6 +460,7 @@ nav .navbar-toggler {
     overflow: hidden;
     margin-bottom: 20px;
     border-bottom: 12px solid var(--secGreenClr);
+    min-height: 210px;
 }
 .myCards img:first-child{
     /* display: none; */
