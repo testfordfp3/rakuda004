@@ -185,6 +185,9 @@ nav .navbar-toggler {
 #aboutUsSection img{
     text-align: right;
 }
+#aboutUsSectionText{
+   font-weight: bold;
+}
 #aboutUsSection .myTitle~div:not(:last-child){
     margin: 15px 0;
 }
