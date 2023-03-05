@@ -635,6 +635,8 @@ nav .navbar-toggler {
 }
 #contactInfo{
     width: 40%;
+    font-style: bold;
+    font-weight: 700;
 }
 .business-time{
     font-size: 0.8rem;
