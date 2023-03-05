@@ -657,6 +657,7 @@ nav .navbar-toggler {
 }
 #contactCard1, #contactCard2, #contactCard3{
     width: 20%;
+    max-height: 300px;
     height: auto;
     background-color: var(--secWhiteClr);
     border-top: 8px solid var(--secGreenClr);
