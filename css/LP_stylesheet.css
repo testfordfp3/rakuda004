@@ -169,7 +169,7 @@ nav .navbar-toggler {
     height: 110%;
     /* background-color: var(--secWhiteClr); */
     background-image: url(../img/paint_rakuda_3.png);
-    /* background-color:rgba(255,255,255,0.6); */
+    background-color:rgba(255,255,255,0.6);
     background-blend-mode:lighten;
     /* background: linear-gradient(to top, rgba(255,255,255,0) 0%,rgba(255,255,255,1)20%), url(../img/about\ us\ bg.png); */
     /* background-attachment: fixed; */
