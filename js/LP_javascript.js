@@ -61,6 +61,7 @@ $("#ourWorkSliderNxt").on("click", function (e) {
 });
 
 //-------------------------------------copyright-------------------------------------
+var d = new Date();
 const year = d.getFullYear();
 let copyright = document.querySelector("#footerCompanyInfo > p");
 copyright.innerHTML = `&copy; ${year} Lakuda Corp. All rights reserved.`;
