@@ -63,5 +63,5 @@ $("#ourWorkSliderNxt").on("click", function (e) {
 //-------------------------------------copyright-------------------------------------
 const year = d.getFullYear();
 let copyright = document.querySelector("#footerCompanyInfo > p");
-copyright.innerHTML = `&copy; ${year} Rakuda Corp. All rights reserved.`;
+copyright.innerHTML = `&copy; ${year} Lakuda Corp. All rights reserved.`;
 console.log(copyright.innerHTML);
