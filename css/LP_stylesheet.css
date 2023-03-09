@@ -634,12 +634,7 @@ nav .navbar-toggler {
     width: 120px;
     margin: 10px 0;
 }
-#contactInfo1{
-    width: 50%;
-    font-style: bold;
-    font-weight: 700;
-}
-#contactInfo2{
+#contactInfo1, #contactInfo2{
     width: 50%;
     font-style: bold;
     font-weight: 700;
