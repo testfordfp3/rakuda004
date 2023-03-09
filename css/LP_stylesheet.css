@@ -643,7 +643,7 @@ nav .navbar-toggler {
     font-size: 0.8rem;
     line-height: 0.8rem;
 }
-#contactInfo a{
+#contactInfo1, #contactInfo2 a{
     text-decoration: none;
     color: var(--secBlackClr);
 }
@@ -747,7 +747,7 @@ nav .navbar-toggler {
     #contactUsSection .myTitle{
         margin: 5rem auto 4rem;
     }
-    #contactInfo{
+    #contactInfo1, #contactInfo2{
         flex: 100%;
         margin-bottom: 30px;
     }
@@ -767,7 +767,7 @@ nav .navbar-toggler {
     #contactUsSection .myTitle{
         margin: 4rem auto 2rem;
     }
-    #contactInfo{
+    #contactInfo1, #contactInfo2{
         flex: 100%;
         margin-bottom: 30px;
     }
