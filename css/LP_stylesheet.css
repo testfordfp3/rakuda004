@@ -650,7 +650,7 @@ nav .navbar-toggler {
 #contactUsSection a:hover{
     color: var(--mainBlueClr);
 }
-#seperatorInContactSection_1, #seperatorInContactSection_2, #seperatorInContactSection_3{
+#seperatorInContactSection_1, #seperatorInContactSection_2, #seperatorInContactSection_3, #seperatorInContactSection_4{
     width: 90%;
     /* border-bottom: 2px solid var(--secNavyClr); */
     border-bottom: 2px solid var(--secBlackClr);
