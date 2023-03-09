@@ -634,13 +634,15 @@ nav .navbar-toggler {
     width: 120px;
     margin: 10px 0;
 }
-#contactInfo{
+#contactInfo1{
     width: 40%;
     font-style: bold;
     font-weight: 700;
 }
-#contactCardSection{
-    width: 60%;
+#contactInfo2{
+    width: 40%;
+    font-style: bold;
+    font-weight: 700;
 }
 .business-time{
     font-size: 0.8rem;
