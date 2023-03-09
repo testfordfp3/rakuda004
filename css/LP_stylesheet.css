@@ -639,6 +639,9 @@ nav .navbar-toggler {
     font-style: bold;
     font-weight: 700;
 }
+#contactCardSection{
+    width: 60%;
+}
 .business-time{
     font-size: 0.8rem;
     line-height: 0.8rem;
